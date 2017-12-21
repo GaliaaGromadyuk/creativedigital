@@ -1,0 +1,139 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+body, html {
+  height: 100%;
+  font-family: ProximaNova;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: #ebebeb;
+  color: #665f60; }
+
+.nav-link {
+  color: #fefefb; }
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 154, 207, 0.5)), to(rgba(159, 154, 207, 0.5))), url(../img/DeathtoStock_Wired7.png) no-repeat 50%;
+  background: linear-gradient(rgba(159, 154, 207, 0.5), rgba(159, 154, 207, 0.5)), url(../img/DeathtoStock_Wired7.png) no-repeat 50%;
+  background-size: cover;
+  height: 100%;
+  color: #fefefb;
+  position: relative;
+  background-attachment: fixed; }
+
+.name {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 200px; }
+  .name h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .name p {
+    font-size: 1.5rem; }
+
+.section1 {
+  padding-top: 130px;
+  margin-bottom: 120px; }
+  .section1 .btn {
+    margin-top: 80px;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic; }
+  .section1 h2 {
+    text-transform: uppercase; }
+  .section1 .section1__img {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 154, 207, 0.5)), to(rgba(159, 154, 207, 0.5))), url(../img/DeathtoStock_Wired8.png) no-repeat 50%;
+    background: linear-gradient(rgba(159, 154, 207, 0.5), rgba(159, 154, 207, 0.5)), url(../img/DeathtoStock_Wired8.png) no-repeat 50%;
+    background-size: cover;
+    height: 560px;
+    padding-top: 70px;
+    color: #fefefb;
+    margin: 0 auto;
+    text-align: center; }
+
+.lern-more {
+  display: none; }
+
+.section2__title {
+  text-align: center; }
+
+.section2 {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  color: #fefefb;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 154, 207, 0.5)), to(rgba(159, 154, 207, 0.5))), url(../img/DeathtoStock_Wired8.png) no-repeat 50%;
+  background: linear-gradient(rgba(159, 154, 207, 0.5), rgba(159, 154, 207, 0.5)), url(../img/DeathtoStock_Wired8.png) no-repeat 50%;
+  background-size: cover; }
+  .section2 .carousel-item {
+    text-align: center; }
+  .section2 .btn {
+    margin-top: 80px;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic; }
+  .section2 h2 {
+    margin-top: 30px;
+    margin-bottom: 70px; }
+
+.js-animation-icon {
+  padding: 20px 10px; }
+
+.js-animation {
+  background: #9f9acf;
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-item: center; }
+
+.js-animation-content {
+  display: none;
+  font-size: 12px;
+  width: 100px; }
+
+.footer {
+  color: #fefefb;
+  height: 100%; }
+  .footer__title {
+    text-align: center;
+    margin-bottom: 270px; }
+
+.form-control {
+  background: rgba(255, 255, 255, 0.4); }
+
+.map-form {
+  background: rgba(159, 154, 207, 0.5);
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#map {
+  height: 100%;
+  z-index: -1; }
